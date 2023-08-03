@@ -1,7 +1,7 @@
 
 
 
-#oneapi_pcl_icp
+# oneapi_pcl_icp
 
 
 本工程是用来表明 oneapi pcl 工程里的一个问题，在使用 oneapi pcl 过程中，如果先链接 pcl native 库，再链接 pcl oneapi 库，那么就会产生错误
@@ -28,7 +28,7 @@ Transform Matrix:
 ```
 
 
-#How to Build 编译步骤
+# How to Build 编译步骤
 
 ```bash
 mkdir build
@@ -37,7 +37,7 @@ cmake ..
 make
 ```
 
-#How to run 如何运行
+# How to run 如何运行
 
 ```bash
 cd build
@@ -45,7 +45,7 @@ make run
 ```
 
 
-#How to switch good and bad version 如何切换好坏两个版本
+# How to switch good and bad version 如何切换好坏两个版本
 
 只要修改 CMakeLists.txt 就可切换两个版本
 
